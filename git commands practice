@@ -1,0 +1,4 @@
+git config --global user.name "name"   //When the who are you error occurs
+git config --global user.email "email"
+
+git remote set-url origin "url" //When git says that the remote origin already exists
