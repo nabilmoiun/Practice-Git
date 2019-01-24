@@ -1,0 +1,29 @@
+Background of blockchain (https://www.forbes.com/sites/bernardmarr/2018/02/16/a-very-brief-history-of-blockchain-technology-everyone-should-read/#63d6bbac7bc4)
+When Satoshi Nakamoto, whose true identity is still unknown, released the whitepaper Bitcoin: A Peer to Peer Electronic Cash System in 2008 that described a “purely peer-to-peer version of electronic cash” known as Bitcoin, blockchain technology made its public debut
+
+what is blockchain 
+https://blockgeeks.com/guides/what-is-blockchain-technology/
+
+use cases of blockchain 
+https://blog.coindirect.com/8-real-world-product-use-cases-for-blockchain-technology/
+
+Merits and demerits of Blockchain, where to use it and where not 
+https://medium.com/nudjed/blockchain-advantage-and-disadvantages-e76dfde3bbc0
+
+types of blockchain platform
+https://www.horsesforsources.com/top-5-blockchain-platforms_031618
+
+Cryptocurrency, advantages and limitations.
+https://medium.com/@covexcoin/advantages-disadvantages-of-cryptocurrencies-explained-9d0d3a08877e
+
+different blockchain consensus mechanism
+https://hackernoon.com/different-blockchain-consensus-mechanisms-d19ea6c3bcd6
+
+elements of blockchain
+https://www.blockchain-council.org/blockchain/5-critical-components-of-blockchain-technology/
+
+blockchain for business
+https://execed.economist.com/blog/industry-trends/5-applications-blockchain-your-business
+
+https://www.goodworklabs.com/future-of-blockchain-technology/
+
