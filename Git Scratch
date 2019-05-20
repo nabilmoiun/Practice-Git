@@ -1,0 +1,5 @@
+# Create a repository 
+# Commit your work 
+# Run git remote set-url origin <your_git_reporurl>
+# Run git remote add origin <your_git_reporurl>
+# Run git push -u origin master or Run git push --set-upstream origin master or git push
