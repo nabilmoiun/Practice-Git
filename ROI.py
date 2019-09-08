@@ -84,7 +84,10 @@ m = 2
 n = 2
 image_height = 3
 image_width = 5
-range_of_next_subarray = math.ceil(image_width / n)
+if image_width - n == 1:
+    range_of_next_subarray = 1
+else:
+    range_of_next_subarray = math.ceil(image_width / n)
 indecies = 0
 start_index_of_the_last_subarray = 0
 no_of_iterations_for_the_last_subarray = 0
