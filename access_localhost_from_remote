@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/33696944/how-do-i-enable-remote-access-request-in-elasticsearch-2-0
+configure the config file
+example:
+for elasticsearch:
+sudo nano etc/elasticsearch/elasticsearch.yml
+make netowrk.host : 0.0.0.0
+ssh to your device
+suod ufw allow from <remote_server_ip> to any prot <localhost_port>
+curl -X GET http://localhost:9200 to get the test response
