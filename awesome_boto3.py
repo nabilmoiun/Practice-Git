@@ -51,6 +51,10 @@ def delete_a_folder(bucket_name, folder_path):
     print("folder deleted!!")
 
 
+def delete_an_object(bucket_name, key_prefix):
+    client.Object(bucket_name, key_prefix).delete()
+
+
 def copy_object(source_bucket_name, source_object_name,
                 destination_bucket_name, destination_object_name):
     copy_source = {'Bucket': source_bucket_name, 'Key': source_object_name}
