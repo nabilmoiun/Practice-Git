@@ -1,0 +1,13 @@
+pip install selenium
+download chrome driver from this website "https://sites.google.com/a/chromium.org/chromedriver/downloads"
+Add environment variable path to windows 10
+Type Edit The System Environment Variables in the start menu
+Click Environment Variable
+Click on PATH on the system variables section down
+click New
+Add directory that contains chromedriver.exe like this "C:\Users\Nobody\Documents\EGDownloads\chromedriver_win32"
+open cmd and type chromedriver to chekc if it works then Starting ChromeDriver 81.0.4044.138 will appear (81.0.4044.138 is the browser version)
+now put the chromedriver and your python script in the same directory and pass executable_path='chromedriver.exe' with while calling Chrome()
+for instance:
+  browser = webdriver.Chrome(executable_path='chromedriver.exe')
+  browser.get('http://www.yahoo.com')
