@@ -8,3 +8,7 @@ def f3():
 
 def f3():
     print("This is f3")
+
+
+def f4():
+    print("This is f4")
