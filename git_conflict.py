@@ -16,4 +16,8 @@ def f4():
 
 def f5():
     print("This is f5")
+    
+    
+def f6():
+    print("This is f6")
 
