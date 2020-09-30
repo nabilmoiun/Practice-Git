@@ -32,5 +32,9 @@ def f8():
     return "f8"
 
 
+def f10():
+    return "f10"
+
+
 def f9():
     return "f9"
