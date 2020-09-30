@@ -26,3 +26,7 @@ def f6():
 
 def f7():
     print("This is f7")
+    
+    
+def f8():
+    return "f8"
