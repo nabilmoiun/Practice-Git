@@ -41,3 +41,8 @@ def f9():
 
 def f10():
     return "f10
+
+
+def f11():
+    return "f11"
+
