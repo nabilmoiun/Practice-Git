@@ -25,7 +25,7 @@ apt install nginx
 vi /etc/nginx/sites-available/test_api.conf
 server {
         listen 80;
-        server_name wezapps.work;
+        server_name <domain>;
         location /static/ {
         root /var/www/html;
 }
