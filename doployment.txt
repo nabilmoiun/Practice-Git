@@ -1,0 +1,37 @@
+cat /etc/lsb_release/ checks system version
+apt upgrade -y && apt update -y
+apt install epel-release
+apt install python3
+apt install python3-pip
+apt install libpq-dev
+apt install postgresql postgresql-contrib
+sudo -u postgres psql
+/l shows all database
+/q quit
+create user test_api_user with password test_api_pass;
+grant all privileges on database test_api to test_api_user;
+pip3 install gunicorn
+pip3 install psycopg2-binary
+mkdir -p /var/www/html/static
+python3 manage.py collectstatic
+ufw allow <port_number>
+
+# Gunicorn
+gunicorn --bind 0.0.0.0:8000 TestApi.wsgi
+
+
+# Nginix
+apt install nginx
+vi /etc/nginx/sites-available/test_api.conf
+server {
+        listen 80;
+        server_name wezapps.work;
+        location /static/ {
+        root /var/www/html;
+}
+        location / {
+        include proxy_params;
+        proxy_pass http://
+}
+}
+
